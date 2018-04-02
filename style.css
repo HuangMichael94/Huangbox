@@ -1,0 +1,205 @@
+<style>
+	
+	body
+	{
+	    margin: 0;
+		padding: 0;
+		min-height: 100%;
+		color: #FFD890;
+		font-family: "gestapo sans nonsensica", "bell mt", serif;
+		background-color: #701820;
+	}
+
+	img
+	{
+		border-style: none;
+	}
+
+	a
+	{
+		color: #FF9028;
+	}
+
+	a:hover, a:active
+	{
+		color: #FFF8F0;
+	}
+
+	.header
+	{
+		width: 100%;
+		height: 80px;
+		border-bottom: 1px dashed #E09838;
+		background-image: url("logo.png");
+		background-position: 1em center;
+		background-repeat: no-repeat;
+	}
+
+	.header h3
+	{
+		margin: 0;
+		padding: 0.5em;
+		font-family: "gestapo sans nonsensica","bell mt",serif;
+		text-align: right;
+	}
+
+	.article
+	{
+		position: absolute;
+		top: 81px; left: 0px; right: 15em;
+		min-height: 100%;
+		padding: 1em;
+		border-right: 1px dashed #E09838;
+	}
+
+	.article > *:first-child
+	{
+		margin-top: 0;
+	}
+
+	.article h2
+	{
+		color: #E09838;
+		font-variant: small-caps;
+	}
+
+	.article p
+	{
+		text-indent: 1em;
+		text-align: justify;
+	}
+
+	.article .property
+	{
+		color: #F8A840;
+		font-weight: bold;
+	}
+
+	.article .image_l
+	{
+		display: inline-block;
+		float: left;
+		margin-right: 1em;
+	}
+
+	.article .image_r
+	{
+		display: inline-block;
+		float: right;
+		margin-left: 1em;
+	}
+	
+	.article .image_c
+	{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		clear: both;
+	}
+
+	.news
+	{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		border: 1px dashed #E09838;
+	}
+
+	.news h3
+	{
+		background-color: #C02020;
+		padding: 0.25em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		margin: 0;
+	}
+
+	.news .content
+	{
+		padding: 0.5em;
+	}
+
+	.news .signature
+	{
+		text-align: right;
+		font-family: "FreebooterScriptRegular";
+	}
+
+	.project
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px dashed #E09838;
+		padding: 0.5em;
+		overflow: hidden;
+	}
+
+	.project img
+	{
+		float: left;
+		margin-right: 0.5em;
+	}
+
+	.project .information
+	{
+		margin-top: 0;
+	}
+
+	.project .information
+	{
+		margin-bottom: 0;
+	}
+
+	.link li
+	{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.link img
+	{
+		float: left;
+	}
+
+	.sidebar
+	{
+		position: absolute;
+		top: 81px; right: 0px;
+		width: 15em;
+		min-height: 100%;
+	}
+
+	.sidebar .link
+	{
+		display: block;
+		padding: 1em;
+		text-align: right;
+		text-decoration: none;
+	}
+
+	.sidebar .link:hover
+	{
+		background-color: #C02020;
+	}
+
+	.sidebar .title
+	{
+		text-decoration: underline;
+	}
+
+	.sidebar .icon:after
+	{
+		text-decoration: none;
+		content: " •";
+		/* font-family: "HeydingsCommonIconsRegular"; */
+	}
+
+	.sidebar .spacer
+	{
+		height: 1px;
+		border-bottom: 1px dashed #E09838;
+	}	
+
+</style>
