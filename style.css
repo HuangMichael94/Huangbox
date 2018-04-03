@@ -1,18 +1,17 @@
-<style>
-	
+	<style>
 	body
 	{
-		margin: 0;
+	    margin: 0;
 		padding: 0;
 		min-height: 100%;
 		color: #FFD890;
 		font-family: "gestapo sans nonsensica", "bell mt", serif;
-		background-color: #701820;
+		background-color: #701820
 	}
 
 	img
 	{
-		border-style: none;
+		border-style: none
 	}
 
 	a
@@ -38,7 +37,7 @@
 	{
 		margin: 0;
 		padding: 0.5em;
-		font-family: "gestapo sans nonsensica", "bell mt", serif;
+		font-family: "gestapo sans nonsensica","bell mt",serif;
 		text-align: right;
 	}
 
@@ -192,6 +191,7 @@
 	{
 		text-decoration: none;
 		content: " •";
+		/* font-family: "HeydingsCommonIconsRegular"; */
 	}
 
 	.sidebar .spacer
@@ -199,5 +199,4 @@
 		height: 1px;
 		border-bottom: 1px dashed #E09838;
 	}	
-
 </style>
